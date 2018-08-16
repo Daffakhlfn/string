@@ -55,5 +55,8 @@ public class ConfertVokal2Angka {
             System.out.println(arrKal[i]+" => "+arrCon[i]);
     }
     tampilPerKata(kalimat, convert);
-    
+    private static void tampilHasil(String convert){
+        System.out.println("Kalimat Alay Angka : " + convert);
+    }
+    tampilHasil(convert);
 }
