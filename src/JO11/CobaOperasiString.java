@@ -58,5 +58,24 @@ public class CobaOperasiString {
         
         System.out.println("gabungkan isi variabel x dan r : "+ x.concat(r));
         
+        System.out.println("karakter mulai posisi 3 di variabel x : " + x.substring(3));
+        
+        System.out.println("karakter dari posisi 3-5 di variabel x : "+ x.substring(3,6));
+        
+        String tclean = t.trim();
+        System.out.println("isi vaariabel tcelan : "+ t.trim());
+        System.out.println("rubah 'i' jadi 'E' di variabel tclean : " + tclean.replace("i","E"));
+        
+        String[] arrT = tclean.split(" ");
+        System.out.println("pecah kata di variable tclean : ");
+        for(int i=0; i<arrT.length; i++)
+            System.out.println(arrT[i]);
+        
+        String[] arrTr = tclean.split("r");
+        System.out.println("pecah berdasarkan huruf 'r' di variable tclean : ");
+        for(int i=0; i<arrTr.length; i++)
+            System.out.println(arrTr[i]);
+        
+        
     }
 }
